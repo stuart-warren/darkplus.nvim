@@ -53,7 +53,7 @@ local highlights = {
 		MoreMsg = {fg = C.orange, },
 		Question = {fg = C.orange, },
 		EndOfBuffer = {fg = C.bg, },
-		NonText = {fg = C.blue, style = "bold", },
+		NonText = {fg = C.blue, bg = C.alt_bg, style = "bold", },
 		Variable = {fg = C.light_blue, },
 		String = {fg = C.orange, },
 		Character = {fg = C.orange, },
